@@ -119,7 +119,7 @@ private:
 			}
 		}
 	}
-}£»
+};
 
 std::ostream& operator<<(std::ostream& stream, TextTable const& table) {
 	table.setup();
