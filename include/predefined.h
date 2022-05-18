@@ -6,7 +6,7 @@
 namespace bpt {
 
 /* predefined B+ info */
-#define BP_ORDER 50
+#define BP_ORDER 100
 
 /* key/value type */
 
@@ -27,6 +27,7 @@ struct key_t {
     }
 };
 
+//先判断两个key长度是否相等，长度不等返回长度差，长度相等再判断两个key是否相等
 inline int keycmp(const key_t &a, const key_t &b) {
     int x = strlen(a.k) - strlen(b.k);
     return x == 0 ? strcmp(a.k, b.k) : x;

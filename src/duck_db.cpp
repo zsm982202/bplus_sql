@@ -1,7 +1,3 @@
-// a journey of a thousand miles begins with a single step
-// author: enpeizhao
-// blog: www.enpeizhao.com
-
 #include "../include/bpt.h"
 #include "../include/TextTable.h"
 
@@ -53,7 +49,7 @@ void initialSystem(){
 // print help message
 void printHelpMess(){
 	cout << "*********************************************************************************************"<<endl<<endl
-		<<" 				Welcome to the duck_db\n 				db file locates in \"./data/db.bin\" \n 				Author: enpei\n 				www.enpeizhao.com\n 				2018-08-31"<<endl<<endl
+		<<" 				db file locates in \"./data/db.bin\" \n"<<endl<<endl
 		<<"*********************************************************************************************"<<endl
 		<<"  .help 							print help message;"<<endl
 		<<"  .exit 							exit program;"<<endl
